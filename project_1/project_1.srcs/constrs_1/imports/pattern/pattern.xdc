@@ -2,9 +2,13 @@
 # chapter: 2
 # project: pattern
 
+# UART TX → hellofpga Type-C CH340 (H17=IO_L13N_T2_MRCC_35, Bank35 3.3V)
+# H16=CH340 TXD(FPGA RX), H17=CH340 RXD(FPGA TX)
+set_property -dict {PACKAGE_PIN H17 IOSTANDARD LVCMOS33} [get_ports UART_TX]
+
 #Clock signal
 set_property -dict {PACKAGE_PIN N18 IOSTANDARD LVCMOS33} [get_ports CLK]
-create_clock -period 30.000 -name sys_clk_pin -waveform {0.000 15.000} -add [get_ports CLK]
+create_clock -period 20.000 -name sys_clk_pin -waveform {0.000 10.000} -add [get_ports CLK]
 
 # set_property CLOCK_DEDICATED_ROUTE BACKBONE [get_nets CLK_IBUF]
 

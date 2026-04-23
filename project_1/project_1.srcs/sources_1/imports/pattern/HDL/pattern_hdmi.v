@@ -7,7 +7,8 @@ module pattern_hdmi(
     input           CLK,
     // input           RST,  // V13=DDR DQS핀, PL에서 사용 불가 (항상 HIGH → 리셋 고정)
     output          HDMI_CLK_N, HDMI_CLK_P,
-    output  [2:0]   HDMI_N, HDMI_P
+    output  [2:0]   HDMI_N, HDMI_P,
+    output          UART_TX   // H16: PL UART TX → hellofpga Type-C (FT232)
 );
 
 wire [7:0] VGA_R,  VGA_G,  VGA_B;
@@ -45,6 +46,12 @@ rgb2dvi #(
     .vid_pHSync (VGA_HS),
     .vid_pVDE   (VGA_DE),
     .vid_pVSync (VGA_VS)
+);
+
+/* UART "Hello EBAZ4205\r\n" 출력 (9600 baud, CLK=50MHz) */
+uart_hello u_uart_hello (
+    .CLK     (CLK),
+    .UART_TX (UART_TX)
 );
 
 endmodule

@@ -3,7 +3,7 @@
 /* project: pattern, chardisp, dipslay�Ȃ� */
 /* outline: VGA�p�p�����[�^                */
 
-/* 1280x720@60Hz (PCK=74.583MHz, VCO=745.8MHz) */
+/* 1280x720@60Hz (Input=50MHz, PCK=74.25MHz, VCO=742.5MHz) */
 /* 640x480 original: HPERIOD=800,HFRONT=16,HWIDTH=96,HBACK=48, VPERIOD=525,VFRONT=10,VWIDTH=2,VBACK=33 */
 /* 640x480 sync polarity: HS=Negative, VS=Negative */
 /* 1280x720 sync polarity: HS=Positive, VS=Positive (CEA-861) */

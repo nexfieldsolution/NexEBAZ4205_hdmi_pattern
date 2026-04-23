@@ -1,29 +1,22 @@
-# FPGA build artifacts
-**/impl/
-**/gwsynthesis/
-**/pnr/
+# Vivado temporary files
+project_1/*.cache/
+project_1/*.hw/
+project_1/*.ip_user_files/
+project_1/*.runs/
+project_1/*.sim/
+project_1/*.gen/
+project_1/*.srcs/utils_1/
 
-# Firmware and generated hexagon files
-**/*.bin
-**/*.binx
-**/*.elf
-**/*.hex
-**/*.fs
-**/*.db
-**/*.log
-**/*.vg
-**/*.rpt
-**/*.html
-**/*.xml
-**/*.p
-**/*.pr
-**/*.timing_paths
-**/*.tr
-**/*.rpt.txt
-
-# OS and Temp files
-.DS_Store
-Thumbs.db
-*~
-*.swp
+# Vivado logs and journals
+*.log
 *.jou
+*.pb
+*.vsp
+*.str
+.Xil/
+
+# Webtalk
+usage_statistics_webtalk.html
+usage_statistics_webtalk.xml
+webtalk.log
+webtalk.jou

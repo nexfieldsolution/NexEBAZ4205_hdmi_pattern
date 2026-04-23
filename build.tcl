@@ -3,6 +3,17 @@
 # =============================================================
 open_project ./project_1/project_1.xpr
 
+# UART 소스 추가 (없으면 추가, 있으면 무시)
+set uart_files {
+    ./project_1/project_1.srcs/sources_1/imports/pattern/HDL/UART_TX_CTRL.vhd
+    ./project_1/project_1.srcs/sources_1/imports/pattern/HDL/uart_hello.v
+}
+foreach f $uart_files {
+    if {[lsearch [get_files] [file normalize $f]] < 0} {
+        add_files -fileset sources_1 $f
+    }
+}
+
 reset_run synth_1
 launch_runs synth_1 -jobs 4
 wait_on_run synth_1
