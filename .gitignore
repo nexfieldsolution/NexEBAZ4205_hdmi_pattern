@@ -1,0 +1,29 @@
+# FPGA build artifacts
+**/impl/
+**/gwsynthesis/
+**/pnr/
+
+# Firmware and generated hexagon files
+**/*.bin
+**/*.binx
+**/*.elf
+**/*.hex
+**/*.fs
+**/*.db
+**/*.log
+**/*.vg
+**/*.rpt
+**/*.html
+**/*.xml
+**/*.p
+**/*.pr
+**/*.timing_paths
+**/*.tr
+**/*.rpt.txt
+
+# OS and Temp files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.jou

@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.srcs/sim_1/imports/SIM/pattern_tb.v,1711787451,verilog,,,,pattern_tb,,,../../../../project_1.srcs/sources_1/imports/pattern/HDL,,,,,
+C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.srcs/sources_1/imports/pattern/HDL/pattern.v,1711783440,verilog,,C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.srcs/sources_1/imports/pattern/HDL/pckgen.v,C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.srcs/sources_1/imports/pattern/HDL/vga_param.vh,pattern,,,../../../../project_1.srcs/sources_1/imports/pattern/HDL,,,,,
+C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.srcs/sources_1/imports/pattern/HDL/pckgen.v,1711783440,verilog,,C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.srcs/sources_1/imports/pattern/HDL/syncgen.v,,pckgen,,,../../../../project_1.srcs/sources_1/imports/pattern/HDL,,,,,
+C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.srcs/sources_1/imports/pattern/HDL/syncgen.v,1711783440,verilog,,C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.srcs/sim_1/imports/SIM/pattern_tb.v,C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.srcs/sources_1/imports/pattern/HDL/vga_param.vh,syncgen,,,../../../../project_1.srcs/sources_1/imports/pattern/HDL,,,,,
+C:/Users/USER/Desktop/EBAZ4205/XilinxFPGA_SE/EBZA4205/03_pattern/project_1/project_1.srcs/sources_1/imports/pattern/HDL/vga_param.vh,1711783440,verilog,,,,,,,,,,,,
