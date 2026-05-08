@@ -14,6 +14,7 @@ foreach f $uart_files {
     }
 }
 
+set_property incremental_checkpoint {} [get_runs synth_1]
 reset_run synth_1
 launch_runs synth_1 -jobs 4
 wait_on_run synth_1

@@ -7,6 +7,8 @@ EBAZ4205 Zynq-7000 보드를 이용한 HDMI 720p 60Hz 컬러 패턴 출력 및 U
 - **HDMI 출력**: 1280x720 @ 60Hz (CEA-861 표준, Positive Polarity)
 - **UART 통신**: 9600 Baud (50MHz 기준)
 - **PS7 초기화**: XSDB 스크립트를 통한 PS7 초기화 루틴 포함
+- **PL UART를 통한 출력**
+- **IO EXT보드 Type-C포트 출력**
 
 ## 하드웨어 연결 및 결과
 ![EBAZ4205 Board](./ebaz4205+io.png)
